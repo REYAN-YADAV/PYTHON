@@ -1,9 +1,2 @@
-a = [10,20,30]
-b = [10,20,30]
-#print(a is b)
-#print(a == b)
-#print(id(a))
-#print(id(b))
-c = b
-print(c is b)
-
+x = input('enter some thing')
+print(type(x))
