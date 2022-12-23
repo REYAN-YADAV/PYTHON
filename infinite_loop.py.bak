@@ -1,0 +1,25 @@
+### INFINITE LOOPS ##
+'''
+#EXAMPLE 1.
+
+i=1
+while True:
+	print("Hello: ",i)
+	i=i+1   
+
+# NESTED LOOP.
+
+#EXAMPLE 1.
+
+for i in range(3):      #0,1,2
+	for j in range(2):  #0,1
+		print("Hello")  '''
+
+#Example 2.
+
+for i in range(3):
+	for j in range(2):
+		print("i= {},j= {}".format(i,j))
+
+
+
