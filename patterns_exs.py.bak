@@ -1,0 +1,180 @@
+# PATTERNS EXAMPLE.
+'''
+
+#EXAMPLE 1. TO PRINT GIVEN NUMBER OF STAR'S IN A ROW WITH SPACE.
+
+n = int(input("Enter n  value : "))
+for i in range(n):
+	print('*',end=' ')  # end attribute with space will help to not to go next line.    
+
+
+
+
+#Example 2. write a program Draw a square pattern with space.
+
+n = int(input("Enter a value: "))           #let n =3. range value will be (0 to n-1) = 0,1,2.
+for i in range(n):                           # then for i=0, star will print = '*' *3, then i=1, and i=2.
+	print('* '*n)  
+
+
+
+
+#Example 3 write a program to print square pattern with provided fixed digit in every row.
+
+n = int(input("Enter a value: "))
+for i in range(n):
+	print((str(i+1) + ' ')*n)         # i is int value so we have convert into str. 
+
+
+
+
+
+# Example 4. Write a program to print square pattern with alphabet symbol in every row.
+
+n = int(input("Enter no of rows: "))
+for i in range(n):                         # ASCII code 65 = A
+	print((chr(65+i) + ' ')*n)    
+	
+
+
+
+#Example 5. Write a program to print Right angle triangle pattern with * symbols.
+
+n = int(input("Enter no of rows: "))
+for i in range(n):
+	for j in range(i+1):
+		print('*',end=' ')
+	print()                # go to next row  
+
+
+        #   another way is
+
+n = int(input("Enter no of rows: "))
+for i in range(n):
+	print('* '*(i+1))  
+
+      
+
+
+#Example 6. Write a program to print inverted Right angle triangle pattern with * symbols.
+
+n = int(input("Enter no of rows: "))
+for i in range(n):
+	print('* '*(n-i))  
+
+
+
+#Example 7.Write a program to print pyramid pattern with * symbols.
+
+n = int(input("Enter no of rows: "))
+for i in range(n):                       # (n-i-1) = represent no of space
+	print(' '*(n-i-1) + '* '*(i+1))    
+
+
+
+
+
+#Example 7.Write a program to print inverted pyramid pattern with * symbols.
+
+n = int(input("Enter no of rows: "))
+for i in range(n):                       # (i) = represent no of space of each row
+	print(' '*(i) + '* '*(n-i))  '''     # (n-i) = represent no of star of each row
+
+
+
+
+
+#Example 7.Write a program to print Diamond pattern with * symbols.
+
+n = int(input("Enter n value: "))
+for i in range(n):                        # for loop 1 = (n-i-1) = represent space in each row    
+	print(' '*(n-i-1) + '* '*(i+1))         
+for i in range(n-1):
+	print(' '*(i+1) + '* '* (n-i-1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
