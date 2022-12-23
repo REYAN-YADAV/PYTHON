@@ -1,5 +1,5 @@
    # write a program to take single digit number from keyword and print its value in word. - (1)
-'''
+
 n = int(input("Enter a digit from 0 to 9 Number: "))
 if n==0:
 	print("Zero")
@@ -22,11 +22,11 @@ elif n==8:
 elif n==9:
 	print("Nine")
 else:
-	print("pls enter a digit value 0 to 9 only.")   '''
+	print("pls enter a digit value 0 to 9 only.")   
 
 
 # above program you can also write  like his
-'''
+
 n = int(input("Enter a digit from 0 to 9 Number: "))
 words = ['zero','one','Two','Three','Four','Five','Six','Seven','Eight','Nine']
 print(words[n])   '''
